@@ -1,0 +1,13 @@
+# System packages on Raspberry Pi OS (Bookworm) you should apt install first:
+#   sudo apt update
+#   sudo apt install -y python3-opencv python3-pyside6
+# For HQ Camera (optional):
+#   sudo apt install -y python3-picamera2
+#
+# If you prefer a venv/pip workflow (desktop PC or Pi):
+#   python3 -m venv .venv && source .venv/bin/activate
+#   pip install -r requirements.txt
+#
+opencv-python>=4.7.0
+PySide6>=6.5
+# Picamera2 is typically installed via apt on Pi; pip package name may differ or be unavailable.
